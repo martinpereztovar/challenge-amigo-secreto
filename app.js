@@ -2,6 +2,7 @@
 let amigos = [];
 let nomeDoAmigo = document.getElementById("amigo");
 let listaDeAmigos = document.getElementById("listaAmigos");
+let contenedorDeResultado = document.getElementById("resultado");
 
 function adicionarAmigo() {
   if (nomeDoAmigo.value.length < 1) {
@@ -29,7 +30,12 @@ function sortearAmigo() {
   } else {
     let indiceAleatorio = Math.floor(Math.random() * amigos.length);
     let nomeSorteado = amigos[indiceAleatorio];
-    let contenedorDeResultado = document.getElementById("resultado");
     contenedorDeResultado.innerHTML += `<li>O amigo secreto sorteado é: ${nomeSorteado}</li>`;
+  }
+}
+
+function verificarTecla(event) {
+  if (event.key === "Enter") {
+    adicionarAmigo();
   }
 }
