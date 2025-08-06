@@ -31,11 +31,21 @@ function sortearAmigo() {
     let indiceAleatorio = Math.floor(Math.random() * amigos.length);
     let nomeSorteado = amigos[indiceAleatorio];
     contenedorDeResultado.innerHTML += `<li>O amigo secreto sorteado é: ${nomeSorteado}</li>`;
+    lerTextoDoResultado(`O amigo secreto sorteado é: ${nomeSorteado}`);
   }
 }
 
 function verificarTecla(event) {
   if (event.key === "Enter") {
     adicionarAmigo();
+  }
+}
+
+function lerTextoDoResultado(texto) {
+  if ("speechSynthesis" in window) {
+    let utterance = new SpeechSynthesisUtterance(texto);
+    utterance.lang = "pt-BR";
+    utterance.rate = 1.2;
+    window.speechSynthesis.speak(utterance);
   }
 }
