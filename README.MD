@@ -34,11 +34,11 @@ A aplicação oferece uma interface intuitiva onde os usuários podem adicionar 
 _capturas de tela da aplicação ou gifs aqui_
 
 ```
-![Adicionando nomes](/demo/Adicionando%20nomes.gif)
+![Adicionando nomes](/demo/adicionando-nomes.gif)
 
-![Verificando se o input está vazio antes de adicionar um nome](/demo/Verificação%20de%20input%20antes%20de%20adicionar%20nome.gif)
+![Verificando se o input está vazio antes de adicionar um nome](/demo/verificacao-input.gif)
 
-![Sorteio e exhibição do amigo sorteado](/demo/Sorteio%20e%20anuncio%20do%20sorteado.gif)
+![Sorteio e exhibição do amigo sorteado](/demo/sorteio-anuncio.gif)
 
 ```
 
@@ -118,8 +118,8 @@ Para um amigo secreto da empresa:
 
 ## Desenvolvedores/Contribuintes
 
-| [<img src="https://via.placeholder.com/100" width=115><br><sub>[Martín Pérez Tovar]</sub>](https://github.com/martinpereztovar) |
-| :-----------------------------------------------------------------------------------------------------------------------------: |
+| [<img src="./assets/foto-martin.jpg" width=115><br><sub>[Martín Pérez Tovar]</sub>](https://github.com/martinpereztovar) |
+| :----------------------------------------------------------------------------------------------------------------------: |
 
 ## Licença
 
