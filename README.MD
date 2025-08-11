@@ -38,7 +38,7 @@ _capturas de tela da aplicação ou gifs aqui_
 
 ![Verificando se o input está vazio antes de adicionar um nome](./demo/verificacao-input.gif)
 
-![Sorteio e exhibição do amigo sorteado](./demo/sorteio-anuncio.gif)
+![Sorteio e exibição do amigo sorteado](./demo/sorteio-anuncio.gif)
 
 ```
 
